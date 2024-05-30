@@ -1,0 +1,6 @@
+import{_ as n,o as s,c as a,b as e,e as t}from"./app-nIdIvv39.js";const l={},c=e("div",{class:"custom-container danger"},[e("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",viewBox:"0 0 24 24"},[e("g",{fill:"none",stroke:"currentColor","stroke-width":"2","stroke-linecap":"round","stroke-linejoin":"round"},[e("circle",{cx:"12",cy:"12",r:"9"}),e("path",{d:"M10 10l4 4m0-4l-4 4"})])]),e("p",{class:"custom-container-title"},"DANGER"),e("p",null,"删除虚拟用户空间，该操作会卸载该用户所有已安装插件")],-1),o=t(`<div class="language-kotlin line-numbers-mode" data-ext="kt"><pre class="language-kotlin"><code><span class="token comment">/**
+ * 删除虚拟用户空间，该操作会卸载该用户所有已安装插件
+ * @param userId virtual user namespace
+ */</span>
+<span class="token keyword">fun</span> <span class="token function">deleteVirtualUserNamespace</span><span class="token punctuation">(</span>userId<span class="token operator">:</span> Int<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,1),i=[c,o];function r(d,u){return s(),a("div",null,i)}const m=n(l,[["render",r],["__file","delete_user_space.html.vue"]]);export{m as default};
