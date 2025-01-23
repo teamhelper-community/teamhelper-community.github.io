@@ -1,0 +1,10 @@
+import{_ as n,o as s,c as a,e}from"./app-ltROBZ5u.js";const t={},o=e(`<h2 id="申请拍照权限" tabindex="-1"><a class="header-anchor" href="#申请拍照权限" aria-hidden="true">#</a> 申请拍照权限</h2><div class="language-kotlin line-numbers-mode" data-ext="kt"><pre class="language-kotlin"><code>PermissionUtil<span class="token punctuation">.</span><span class="token function">requestCamera</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> <span class="token keyword">object</span> <span class="token operator">:</span> IPermissionListener <span class="token punctuation">{</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onAgree</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onRefuse</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">toast</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">&quot;请允许相机权限&quot;</span></span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),i=[o];function c(p,l){return s(),a("div",null,i)}const r=n(t,[["render",c],["__file","camera_permission.html.vue"]]);export{r as default};
