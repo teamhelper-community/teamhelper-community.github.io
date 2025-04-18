@@ -1,0 +1,6 @@
+import{_ as n,c as s,o as a,e as t}from"./app-Ne0PdyYx.js";const r={};function i(c,e){return a(),s("div",null,e[0]||(e[0]=[t(`<div class="custom-container tip"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 8h.01"></path><path d="M11 12h1v4h1"></path></g></svg><p class="custom-container-title">TIP</p><p>进行<a href="overview_plugin_management">插件管理</a>前，务必主动创建用户空间</p></div><div class="language-kotlin line-numbers-mode" data-ext="kt"><pre class="language-kotlin"><code><span class="token comment">/**
+ * 创建虚拟用户ID
+ * @param userId virtual user namespace
+ */</span>
+<span class="token keyword">fun</span> <span class="token function">createVirtualUserNamespace</span><span class="token punctuation">(</span>userId<span class="token operator">:</span> Int<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2)]))}const o=n(r,[["render",i],["__file","create_user_space.html.vue"]]);export{o as default};

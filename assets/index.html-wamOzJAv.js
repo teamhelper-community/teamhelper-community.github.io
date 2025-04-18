@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-573d6865","path":"/categories/xingyedongtai/1/","title":"","lang":"en-US","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{e as data};

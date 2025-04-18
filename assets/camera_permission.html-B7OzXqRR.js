@@ -1,0 +1,10 @@
+import{_ as s,c as a,o as e,e as t}from"./app-Ne0PdyYx.js";const o={};function i(p,n){return e(),a("div",null,n[0]||(n[0]=[t(`<h2 id="申请拍照权限" tabindex="-1"><a class="header-anchor" href="#申请拍照权限" aria-hidden="true">#</a> 申请拍照权限</h2><div class="language-kotlin line-numbers-mode" data-ext="kt"><pre class="language-kotlin"><code>PermissionUtil<span class="token punctuation">.</span><span class="token function">requestCamera</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span> <span class="token keyword">object</span> <span class="token operator">:</span> IPermissionListener <span class="token punctuation">{</span>
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onAgree</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onRefuse</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">toast</span><span class="token punctuation">(</span><span class="token string-literal singleline"><span class="token string">&quot;请允许相机权限&quot;</span></span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2)]))}const l=s(o,[["render",i],["__file","camera_permission.html.vue"]]);export{l as default};

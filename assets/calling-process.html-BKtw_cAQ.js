@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b06594ec","path":"/serverDocs/api_call_guide/calling-process.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1744944104000,"updatedTime":1744944104000,"contributors":[{"name":"Finger","email":"finger@spianmo.com","commits":1}]},"filePathRelative":"serverDocs/api_call_guide/calling-process.md"}');export{e as data};

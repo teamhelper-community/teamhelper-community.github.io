@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as c,k as o}from"./app-Ne0PdyYx.js";const s={__name:"Icon",props:{name:String},setup(e){return(t,r)=>(c(),a("span",{class:o("icon-"+e.name)},null,2))}},l=n(s,[["__file","Icon.vue"]]);export{l as default};

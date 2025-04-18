@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0238095d","path":"/docs/develop_tools/screencast.html","title":"高分辨率投屏","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1744944104000,"updatedTime":1744944104000,"contributors":[{"name":"Finger","email":"finger@spianmo.com","commits":1}]},"filePathRelative":"docs/develop_tools/screencast.md"}');export{e as data};

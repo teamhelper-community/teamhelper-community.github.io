@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3da31d3a","path":"/docs/develop_tools/performance.html","title":"性能监测","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1744944104000,"updatedTime":1744944104000,"contributors":[{"name":"Finger","email":"finger@spianmo.com","commits":1}]},"filePathRelative":"docs/develop_tools/performance.md"}');export{e as data};

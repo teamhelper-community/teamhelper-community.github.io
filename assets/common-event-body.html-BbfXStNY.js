@@ -1,0 +1,15 @@
+import{_ as e,c as d,o as n,e as r}from"./app-Ne0PdyYx.js";const o={};function a(i,t){return n(),d("div",null,t[0]||(t[0]=[r(`<p><strong>事件体</strong></p><table><thead><tr><th>名称</th><th>类型</th><th>描述</th><th>示例</th></tr></thead><tbody><tr><td>version</td><td>String</td><td>事件的版本</td><td>1.0</td></tr><tr><td>header.event_id</td><td>String</td><td>事件消息唯一值</td><td>bb224e75-f2fe-4455-aee0-0674ad9fc2f4</td></tr><tr><td>header.event_name</td><td>String</td><td>事件名称</td><td>用户入职</td></tr><tr><td>header.event_key</td><td>String</td><td>事件key</td><td>事件KEY, 往往是领域模型的唯一标识</td></tr><tr><td>header.timestamp</td><td>Long</td><td>事件发生时间戳（毫秒）</td><td>一般是生产方的createdTime或updatedTime</td></tr><tr><td>header.retry_count</td><td>Integer</td><td>重试次数</td><td>从0开始, 每重试1次, 新增1, 直到最大重试次数</td></tr><tr><td>header.app_id</td><td>String</td><td>App ID</td><td></td></tr><tr><td>header.token</td><td>String</td><td>token</td><td>字段即 Verification Token。</td></tr><tr><td>event</td><td>Object</td><td>携带的事件数据, JSON格式, 根据不同的事件类型自行定义</td><td>携带的事件数据, JSON格式, 根据不同的事件类型自行定义</td></tr></tbody></table><p><strong>事件体示例</strong></p><div class="language-JSON line-numbers-mode" data-ext="JSON"><pre class="language-JSON"><code>{
+    &quot;version&quot;: &quot;1.0&quot;,
+    &quot;header&quot;: { 
+        &quot;token&quot;: &quot;066zT6pS4QCbgj5Do145GfDbbagCHGgF&quot;,    // token
+        &quot;event_id&quot;: &quot;bb224e75-f2fe-4455-aee0-0674ad9fc2f4&quot;, // 事件消息唯一值
+        &quot;event_name&quot;: &quot;用户离职&quot;, // 事件名称, 比如:  用户离职等
+        &quot;event_key&quot;: 100101002, // 事件KEY
+        &quot;timestamp&quot;: 1737262443448, // 事件发生毫秒时间戳, 一般是生产方的createdTime或updatedTime
+        &quot;retry_count&quot;: 0, // 重试次数, 从0开始, 每重试1次, 新增1, 直到最大重试次数    
+        },
+    &quot;event&quot;:{}            // 携带的事件数据, JSON格式, 根据不同的事件类型自行定义
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>响应体</strong></p><p>开发者在收到消息回调数据后<strong>应在3秒内返回结果</strong>。若超时未返回，开发会将本次消息回调的请求作为失败处理，影响开发者SLA。</p><p>开发者在处理消息回调后，应按照规范返回处理结果。<strong>结果数据应为<strong><strong>json</strong></strong>格式，并放在http body中返回。</strong></p><p><strong>返回示例（成功返回）</strong></p><div class="language-Java line-numbers-mode" data-ext="Java"><pre class="language-Java"><code>{ &quot;code&quot;:200, &quot;msg&quot;:&quot;success&quot; }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>返回示例（失败返回）</strong></p><div class="language-Java line-numbers-mode" data-ext="Java"><pre class="language-Java"><code>{ &quot;code&quot;:-1, &quot;msg&quot;:&quot;error&quot; }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>`,11)]))}const u=e(o,[["render",a],["__file","common-event-body.html.vue"]]);export{u as default};

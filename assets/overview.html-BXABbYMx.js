@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-47cc7a0f","path":"/docs/develop_tools/overview.html","title":"设备信息","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1744944104000,"updatedTime":1744944104000,"contributors":[{"name":"Finger","email":"finger@spianmo.com","commits":1}]},"filePathRelative":"docs/develop_tools/overview.md"}');export{e as data};
